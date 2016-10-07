@@ -5,7 +5,7 @@ def Main():
 
         s = socket.socket()
         s.bind((host, port))
-
+        
         message = raw_input("->")
         while message != 'q':
                s.send(messge)
@@ -13,8 +13,8 @@ def Main():
                            
                message = raw_input(("->")
 
-               
-    s.close()
+                                   s.close()
+                              
 if __name__ == '__main__':
             Main()
             
